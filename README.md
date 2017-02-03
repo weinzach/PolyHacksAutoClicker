@@ -1,4 +1,4 @@
-# PolyHacksAutoClicker
+# PolyHacks AutoClicker
 An autoclicker for http://polyhacks.com/. Currently clicks every second with configurable times to be added in future versions.
 ##Install Instructions:
 
