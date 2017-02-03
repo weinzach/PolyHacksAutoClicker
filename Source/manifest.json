@@ -1,0 +1,28 @@
+{
+  "name": "PolyHacks AutoClicker",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "An autoclicker for PolyHacks",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "background": {
+    "scripts": [
+      "background.js","clicker.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_popup": "popup.html",
+    "default_title": "PolyHacks Clicker"
+  },
+  "permissions": [
+    "https://*.polyhacks.com/*",
+    "http://*.polyhacks.com/*",
+	"http://polyhacks.com/*",
+    "https://polyhacks.com/*",
+    "activeTab",
+	"storage"
+  ]
+}
